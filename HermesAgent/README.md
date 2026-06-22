@@ -1,6 +1,6 @@
 # HermesAgent
 
-HermesAgent is a lightweight repo for agent instructions, project docs, prompts, and the existing Expo app in this workspace.
+HermesAgent is a lightweight repo for agent instructions, project docs, prompts, and small shared source placeholders.
 
 ## Layout
 
@@ -8,18 +8,15 @@ HermesAgent is a lightweight repo for agent instructions, project docs, prompts,
 - `docs/` architecture notes and roadmap
 - `prompts/` reusable LLM prompts
 - `src/` shared source code when needed
-- `app/` the current Expo Router app
+- `.vscode/` editor settings if you choose to add them later
+- `.github/` workflow space if you choose to add CI later
 
 ## Local setup
 
-```bash
-npm install
-npm run lint
-npm run start
-```
+No runtime install is required for the current repo state.
 
 ## Notes
 
 - Keep the repo small and explicit so it remains usable on lower-memory machines.
 - Prefer simple markdown instructions over extra automation until a real need appears.
-
+- This repo is now docs-first, not an app shell.

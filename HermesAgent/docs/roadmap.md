@@ -9,12 +9,11 @@
 
 ## Phase 2
 
-- Add VS Code workspace settings.
-- Add CI for lint checks.
+- Add VS Code workspace settings only if they reduce friction.
+- Add CI only if the repo needs automated checks.
 - Add any shared source modules under `src/` only when needed.
 
 ## Phase 3
 
-- Decide whether this repo stays docs-first or becomes the canonical app repo.
-- If the app grows, separate shared logic from UI so the code stays portable to low-memory machines.
-
+- Decide whether this repo stays docs-first or becomes a canonical app repo.
+- If app code is reintroduced, keep shared logic separate so the code stays portable to low-memory machines.
