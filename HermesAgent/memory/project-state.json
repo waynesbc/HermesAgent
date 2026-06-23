@@ -1,0 +1,16 @@
+{
+  "project": "HermesAgent",
+  "mode": "docs-first",
+  "target": {
+    "primary": "Intel Mac",
+    "memory_gb": 4
+  },
+  "active_focus": "beer style to hop pairing experiment",
+  "current_goal": "Use lightweight memory and references to suggest hop combinations for a given beer style",
+  "constraints": [
+    "Keep files small and explicit",
+    "Avoid heavy runtime dependencies",
+    "Prefer markdown and JSON",
+    "Keep the setup usable on low-memory machines"
+  ]
+}

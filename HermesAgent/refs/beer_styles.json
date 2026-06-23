@@ -1,0 +1,44 @@
+{
+  "styles": [
+    {
+      "name": "Pale Ale",
+      "description": "Balanced malt body with bright hop aroma.",
+      "targets": {
+        "bitterness": "medium",
+        "aroma": ["citrus", "floral", "pine"],
+        "malt": "light to medium"
+      },
+      "good_hop_traits": ["citrus", "floral", "pine", "stone fruit"]
+    },
+    {
+      "name": "IPA",
+      "description": "Hop-forward beer with pronounced aroma and bitterness.",
+      "targets": {
+        "bitterness": "medium-high",
+        "aroma": ["citrus", "tropical", "resinous", "pine"],
+        "malt": "light to medium"
+      },
+      "good_hop_traits": ["citrus", "tropical", "resinous", "pine", "dank"]
+    },
+    {
+      "name": "Helles Lager",
+      "description": "Soft, clean lager with gentle malt sweetness and restrained hop character.",
+      "targets": {
+        "bitterness": "low to medium",
+        "aroma": ["herbal", "spicy", "floral"],
+        "malt": "bready"
+      },
+      "good_hop_traits": ["herbal", "spicy", "floral", "clean"]
+    },
+    {
+      "name": "Wheat Beer",
+      "description": "Light, refreshing beer with soft malt and subtle fruit/spice notes.",
+      "targets": {
+        "bitterness": "low to medium",
+        "aroma": ["citrus", "spice", "floral"],
+        "malt": "soft"
+      },
+      "good_hop_traits": ["citrus", "floral", "spicy", "gentle"]
+    }
+  ]
+}

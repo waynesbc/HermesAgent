@@ -1,0 +1,24 @@
+{
+  "decisions": [
+    {
+      "id": "memory-001",
+      "decision": "Use memory files for mutable project state, task tracking, and prior results.",
+      "reason": "The repo needs a lightweight way to remember what has already been tried."
+    },
+    {
+      "id": "refs-001",
+      "decision": "Use refs for stable knowledge such as beer styles and hop traits.",
+      "reason": "Beer style and hop descriptors should not live in mutable project state."
+    },
+    {
+      "id": "loop-001",
+      "decision": "Hermes should read memory, search refs, answer, then write updated memory.",
+      "reason": "This keeps the workflow deterministic and easy to extend."
+    },
+    {
+      "id": "runner-001",
+      "decision": "Use the local Node runner to read refs, rank hops, and optionally record results into memory.",
+      "reason": "This keeps the demo runnable on an old Intel Mac without extra dependencies."
+    }
+  ]
+}

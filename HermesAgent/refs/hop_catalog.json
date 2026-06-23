@@ -1,0 +1,46 @@
+{
+  "hops": [
+    {
+      "name": "Citra",
+      "aroma": ["citrus", "tropical", "grapefruit"],
+      "bitterness": "medium",
+      "best_use": ["late boil", "dry hop"],
+      "pairing_notes": "Strong citrus and tropical character; can dominate subtle styles."
+    },
+    {
+      "name": "Mosaic",
+      "aroma": ["tropical", "berry", "dank", "citrus"],
+      "bitterness": "medium",
+      "best_use": ["late boil", "dry hop"],
+      "pairing_notes": "Flexible IPA hop with broad fruit and resin character."
+    },
+    {
+      "name": "Cascade",
+      "aroma": ["citrus", "floral", "grapefruit"],
+      "bitterness": "medium",
+      "best_use": ["bittering", "flavor", "aroma"],
+      "pairing_notes": "Classic American hop that works well in pale ales."
+    },
+    {
+      "name": "Saaz",
+      "aroma": ["herbal", "spicy", "floral"],
+      "bitterness": "low",
+      "best_use": ["bittering", "flavor"],
+      "pairing_notes": "Soft noble character suited to lagers and delicate beers."
+    },
+    {
+      "name": "Hallertau Mittelfruh",
+      "aroma": ["floral", "herbal", "spicy"],
+      "bitterness": "low",
+      "best_use": ["bittering", "aroma"],
+      "pairing_notes": "Gentle noble hop that supports clean lager profiles."
+    },
+    {
+      "name": "Amarillo",
+      "aroma": ["orange", "floral", "stone fruit"],
+      "bitterness": "medium",
+      "best_use": ["late boil", "dry hop"],
+      "pairing_notes": "Works well when orange and floral notes are welcome."
+    }
+  ]
+}

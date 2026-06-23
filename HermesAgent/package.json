@@ -1,0 +1,11 @@
+{
+  "name": "hermes-agent",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Lightweight HermesAgent demo runner for beer-style hop suggestions",
+  "scripts": {
+    "hermes": "node src/index.js",
+    "hermes:record": "node src/index.js --record"
+  }
+}
