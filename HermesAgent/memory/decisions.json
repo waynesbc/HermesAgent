@@ -19,6 +19,11 @@
       "id": "runner-001",
       "decision": "Use the local Node runner to read refs, rank hops, and optionally record results into memory.",
       "reason": "This keeps the demo runnable on an old Intel Mac without extra dependencies."
+    },
+    {
+      "id": "ops-001",
+      "decision": "Keep a root AGENTS.md file as the canonical repo-level instruction overlay for future changes.",
+      "reason": "This lets future runs pick up the current working rules without changing source code."
     }
   ]
 }
