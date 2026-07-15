@@ -25,6 +25,14 @@
       "input": "User-provided guidance for future project changes",
       "output": "Added root AGENTS.md, memory decision, and a small validation script.",
       "notes": "This keeps the operating rules close to the codebase."
+    },
+    {
+      "id": "hermes-loop-guide-20260715",
+      "title": "Add instructor-mode Hermes loop guide",
+      "status": "completed",
+      "input": "Request for a learning-focused explanation of the Hermes loop and implementation tips",
+      "output": "Appended an instructor-mode HTML comment to docs/hermes-loop-diagram.md.",
+      "notes": "The guide explains each stage, repository mapping, implementation reasoning, and concluding tips."
     }
   ],
   "blocked": []

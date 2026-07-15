@@ -24,6 +24,11 @@
       "id": "ops-001",
       "decision": "Keep a root AGENTS.md file as the canonical repo-level instruction overlay for future changes.",
       "reason": "This lets future runs pick up the current working rules without changing source code."
+    },
+    {
+      "id": "docs-001",
+      "decision": "Keep an instructor-mode explanation with the Hermes loop diagram.",
+      "reason": "The diagram is the clearest place to teach how each stage maps to this docs-first repository and its implementation boundaries."
     }
   ]
 }
